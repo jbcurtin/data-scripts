@@ -28,7 +28,7 @@ version of Python
 
 
 EXCLUDE_FROM_PACKAGES = []
-version = '0.1.0'
+version = '0.1.1'
 description = 'Scripts for managing massive amounts of Data'
 
 def read(fname):
