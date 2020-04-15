@@ -39,7 +39,7 @@ setup(
     name='data-scripts',
     version=version,
     python_requires='>={}.{}'.format(*REQUIRED_PYTHON),
-    url='https://github.com/jbcurtin/data_scripts',
+    url='https://github.com/jbcurtin/data-scripts',
     author="Joseph Curtin <42@jbcurtin.io",
     author_email='data-scripts@jbcurtin.io',
     description=description,
@@ -48,8 +48,7 @@ setup(
     packages=find_packages(exclude=EXCLUDE_FROM_PACKAGES),
     include_package_data=True,
     scripts=[],
-    install_requires=[
-    ],
+    install_requires=[],
     entry_points={
         'console_scripts': []
     },
